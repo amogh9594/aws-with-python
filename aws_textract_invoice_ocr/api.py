@@ -11,8 +11,8 @@ PlaindocumentName = "invoice-1.jpg"
 
 # Amazon Textract client
 #textractmodule = boto3.client('textract')
-textractmodule = boto3.client("textract", aws_access_key_id="AKIA37LCJSNXPICE7ZLH",
-                              aws_secret_access_key="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", region_name="us-east-1")
+textractmodule = boto3.client("textract", aws_access_key_id=" ",
+                              aws_secret_access_key=" ", region_name="us-east-1")
 
 #1. PLAINTEXT detection from documents:
 response = textractmodule.detect_document_text(
