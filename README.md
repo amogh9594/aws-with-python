@@ -16,6 +16,6 @@ pip install boto3
    * Read and write data from/to S3.
  
 2. [Analyzing Invoice Data Using Textract](https://github.com/amogh9594/aws-with-python/blob/main/aws_textract_invoice_ocr/api.py)
-  * PLAINTEXT detection from documents.
-  * FORM detection from documents.
-  * TABLE data detection from documents.
+   * PLAINTEXT detection from documents.
+   * FORM detection from documents.
+   * TABLE data detection from documents.
