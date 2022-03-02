@@ -34,15 +34,7 @@ pip install boto3
    * Create s3 bucket.
    * Create json file using Lambda function and upload a json file to s3 bucket.
 
-6. AWS cron job schedule expression
-   * rate : You can add day, days, minutes, hours etc. in this expression.
-     ```
-     rate(1 day)
-     ```
-   * cron 
-     ```
-     cron(0 17 ? * MON-FRI *)
-     ``` 
+
      
 
    
