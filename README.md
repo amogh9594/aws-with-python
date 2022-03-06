@@ -25,8 +25,17 @@ pip install boto3
    * The examples listed on this page are code samples written in Python that demonstrate how to interact with AWS Identity and Access Management (IAM).
    
 4. [Using lambda read file from s3 using lambda trigger](https://github.com/amogh9594/aws-with-python/blob/main/aws_lambda/lambda_read_file_s3_trigger.py)
-   * S3 Object Lambda gives you the flexibility to invoke Lambda functions directly from S3 GET requests to process data to meet the specific requirements of your applications. 
+   * S3 Object Lambda gives you the flexibility to invoke Lambda functions directly from S3 GET requests to process data to meet the specific requirements of your   
+     applications. 
    * S3 Object Lambda works with your existing applications and uses AWS Lambda functions to automatically process and transform your data as it is being retrieved from S3.
+
+5. [Upload to s3 bucket from lambda](https://github.com/amogh9594/aws-with-python/blob/main/aws_lambda/lambda_to_s3.py)
+   * Create necessary IAM role our lambda will used.
+   * Create s3 bucket.
+   * Create json file using Lambda function and upload a json file to s3 bucket.
+
+
+     
 
    
 
