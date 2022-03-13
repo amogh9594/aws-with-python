@@ -34,6 +34,9 @@ pip install boto3
    * Create s3 bucket.
    * Create json file using Lambda function and upload a json file to s3 bucket.
 
+6. [Download All Files From S3 Using Boto3](https://github.com/amogh9594/aws-with-python/blob/4e4909cec446d66e0e6cb5abc0b8900b50902a09/aws_to_python/s3_down.py)
+   * s3.client.download_file() – API method to download file from your S3 buckets.
+   * You’ll create an s3 resource and iterate over a for loop using objects.all() API.
 
      
 
