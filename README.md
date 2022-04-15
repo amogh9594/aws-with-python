@@ -10,12 +10,12 @@ pip install boto3
 ```
 
 ## Program Files 
-1. [AWS S3 Bucket Connection](https://github.com/amogh9594/aws-with-python/blob/main/aws_textract_invoice_ocr/api.py)
+1. [AWS S3 Bucket Connection](https://github.com/amogh9594/aws-with-python/blob/ab90da402ef5fd550b3bdb787f194bd1a9dfa070/aws_mini_project/aws_textract_invoice_ocr/aws_s3_connect.py)
    * Set up credentials to connect Python to S3.
    * Authenticate with boto3.
    * Read and write data from/to S3.
  
-2. [Analyzing Invoice Data Using Textract](https://github.com/amogh9594/aws-with-python/blob/main/aws_textract_invoice_ocr/api.py)
+2. [Analyzing Invoice Data Using Textract](https://github.com/amogh9594/aws-with-python/blob/ab90da402ef5fd550b3bdb787f194bd1a9dfa070/aws_mini_project/aws_textract_invoice_ocr/api.py)
    * PLAINTEXT detection from documents.
    * FORM detection from documents.
    * TABLE data detection from documents.
