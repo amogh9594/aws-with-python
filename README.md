@@ -38,6 +38,10 @@ pip install boto3
    * s3.client.download_file() – API method to download file from your S3 buckets.
    * You’ll create an s3 resource and iterate over a for loop using objects.all() API.
 
+7. Send and read log from cloudwatch using Boto3
+   * Sending logs to CloudWatch log group [Click Here](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/put_cloud_log.py).
+   * Filtering CloudWatch Logs by LogGroups and LogStreams and reading them using Python and the Boto3 SDK [Click Here](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/get_cloud_log.py).
+
      
 
    
