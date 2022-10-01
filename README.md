@@ -42,8 +42,7 @@ pip install boto3
    * Sending logs to CloudWatch log group [Click Here](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/put_cloud_log.py).
    * Filtering CloudWatch Logs by LogGroups and LogStreams and reading them using Python and the Boto3 SDK [Click Here](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/get_cloud_log.py).
 
-8. [AWS Textract Query feature](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/AWSTextractQuery.ipynb) : Extract data from document using     
-query 
+8. [AWS Textract Query feature](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/AWSTextractQuery.ipynb) 
    * When user provided a query, Amazon Textract provides a specialized response object. It then provides the confidence Amazon Textract has with the answer and a   location of the answer on the page, and the text answer to the question posed.
    * Detected queries are returned as Block objects in the responses from AnalyzeDocument and GetDocumentAnalysis. [DocQuery](https://github.com/amogh9594/docquery)
    
