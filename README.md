@@ -48,7 +48,7 @@ pip install boto3
    
 9. [Multiple files upload to AWS S3 from nextcloud folder](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/nextcloud_to_aws.py)
    * First create one folder inside nextcloud account store some files in that folder create shareable public URL.
-   * Use This above code and enter URL/download , reauired credentials in that code and execute. 
+   * Use This above code and enter URL/download , required credentials in that code and execute. 
 
    
 
