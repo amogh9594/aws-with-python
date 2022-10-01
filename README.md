@@ -24,15 +24,15 @@ pip install boto3
    * AWS Identity and Access Management (IAM) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS.
    * The examples listed on this page are code samples written in Python that demonstrate how to interact with AWS Identity and Access Management (IAM).
    
-4. [Using lambda read file from s3 using lambda trigger](https://github.com/amogh9594/aws-with-python/blob/main/aws_lambda/lambda_read_file_s3_trigger.py)
+4. [Using lambda read file from S3 using lambda trigger](https://github.com/amogh9594/aws-with-python/blob/main/aws_lambda/lambda_read_file_s3_trigger.py)
    * S3 Object Lambda gives you the flexibility to invoke Lambda functions directly from S3 GET requests to process data to meet the specific requirements of your   
      applications. 
    * S3 Object Lambda works with your existing applications and uses AWS Lambda functions to automatically process and transform your data as it is being retrieved from S3.
 
-5. [Upload to s3 bucket from lambda](https://github.com/amogh9594/aws-with-python/blob/main/aws_lambda/lambda_to_s3.py)
+5. [Upload to s3 bucket from lambda](https://github.com/amogh9594/aws-with-python/blob/main/aws_lambda/lambda_to_s3.py) / [upload a file to S3 bucket](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/uploadtos3.py)
    * Create necessary IAM role our lambda will used.
    * Create s3 bucket.
-   * Create json file using Lambda function and upload a json file to s3 bucket.
+   * Create json file using Lambda function and upload a json file to S3 bucket. / Upload file from local directory to S3 bucket.
 
 6. [Download All Files From S3 Using Boto3](https://github.com/amogh9594/aws-with-python/blob/4e4909cec446d66e0e6cb5abc0b8900b50902a09/aws_to_python/s3_down.py)
    * s3.client.download_file() – API method to download file from your S3 buckets.
@@ -47,9 +47,9 @@ query
    * When user provided a query, Amazon Textract provides a specialized response object. It then provides the confidence Amazon Textract has with the answer and a   location of the answer on the page, and the text answer to the question posed.
    * Detected queries are returned as Block objects in the responses from AnalyzeDocument and GetDocumentAnalysis. [DocQuery](https://github.com/amogh9594/docquery)
    
-9. [Multiple files upload to AWS s3 from nextcloud folder](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/nextcloud_to_aws.py)
+9. [Multiple files upload to AWS S3 from nextcloud folder](https://github.com/amogh9594/aws-with-python/blob/main/aws_to_python/nextcloud_to_aws.py)
    * First create one folder inside nextcloud account store some files in that folder create shareable public URL.
-   * Use This above code and enter URL , reauired credentials in that code and execute. 
+   * Use This above code and enter URL/download , reauired credentials in that code and execute. 
 
    
 
